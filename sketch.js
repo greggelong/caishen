@@ -18,7 +18,7 @@ function draw() {
     if (random(1) < 0.5) {
       symbol = "$";
     } else {
-      symbol = "¥";
+      symbol = "元";
     }
     let sz = random(20, 70);
     let drop = new Drop(x, y, spd, symbol, sz);
