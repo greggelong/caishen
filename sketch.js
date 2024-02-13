@@ -13,7 +13,7 @@ function draw() {
   if (random(1) < 0.5) {
     let x = random(width);
     let y = -20;
-    let spd = random(1, 5);
+    let spd = random(5, 10);
     let symbol;
     if (random(1) < 0.5) {
       symbol = "$";
